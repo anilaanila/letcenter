@@ -1,0 +1,279 @@
+*{
+    top: 0%;
+}
+
+body{
+    overflow: scroll;
+    background: scroll;
+    overflow-x: hidden ;
+}
+
+.logo{
+    margin-left: 2%;
+    margin-top: 1%;
+    
+    
+}
+
+.enroll{
+
+    background-color: #ED1A3B;
+    color: #FFFFFF;
+    text-decoration: none;   
+    border-radius: 14px;
+    padding: 20px;
+    position: absolute;
+    justify-self: end;
+    margin-left: 87%;
+   margin-top: 4%;
+
+
+}
+.enroll:hover {
+    background-color: #95949A;
+  }
+
+.home{
+    color: #95949A;
+    text-decoration: none;
+    margin-left: 54%;
+    display: inline;
+    margin-top: 5.5%;
+    position:absolute ;
+    font-size: medium;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.aboutus{
+    color: #95949A;
+    text-decoration: none;
+    margin-left: 60%;
+display: inline;
+margin-top: 5.5%;
+position: absolute;
+font-size: medium;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.programs{
+    color: #95949A;
+    text-decoration: none;
+    margin-left: 67%;
+    display: inline;
+    margin-top: 5.5%;
+    position: absolute;
+    font-size: medium;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.Galleries{
+color: #95949A;
+text-decoration: none;
+margin-left: 73.5%;
+display: inline;
+margin-top: 5.5%;
+position: absolute;
+font-size: medium;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.Contactus{
+    color: #95949A;
+    text-decoration: none;
+    margin-left: 1150px;
+    display: inline;
+    margin-top: 5.5%;
+    position: absolute;
+    font-size: medium;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.mainphoto{
+    /* width: 100%;
+    height: 1px; */
+    position: absolute;
+    margin-top: 11%;
+  
+    
+}
+
+.photo{
+    width: 100%;
+ 
+}
+
+.Galleries:hover{
+    color: #ED1A3B;
+}
+
+.Contactus:hover{
+    color: #ED1A3B;
+}
+
+.programs:hover{
+    color: #ED1A3B;
+}
+
+.aboutus:hover{
+    color: #ED1A3B;
+}
+
+.home:hover{
+    color: #ED1A3B;
+}
+
+.maintext{
+    color: white;
+
+position: absolute;
+left: 50%;
+top: 30%;
+}
+
+.rectanglewhite{
+    position: absolute;
+    top: 400px;
+    right: -400px;
+}
+
+.textlet{
+    color: #95949A;
+    
+    z-index: 3;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.smalltextlet{
+    color: #4431a7;
+font-size: 40px;
+color: black;
+}
+.teksti{
+    text-align: center;
+}
+
+
+/* programs page */
+
+.toddlers{
+    position: absolute;
+    top: 300px;
+    right: 630px;
+
+}
+.toddlers:hover{
+cursor: pointer;
+}
+
+.prek{
+    position: absolute;
+    top: 300px;
+    right: 280px;
+}
+.prek:hover{
+    cursor: pointer;
+}
+
+.kindergarten{
+    position: absolute;
+    top: 300px;
+    left:-210px;
+}
+
+.kindergarten:hover{
+    cursor: pointer;
+}
+
+.scholar{
+    position: absolute;
+    top: 300px;
+    left: 130px;
+}
+
+.scholar:hover{
+    cursor: pointer;
+}
+
+.enrollprograms{
+    position: absolute;
+    top: 750px;
+}
+
+
+.backroundenroll{
+    position: absolute;
+    z-index: -1;
+ top: 750px;
+}
+
+.inputenroll{
+    position: absolute;
+    top: 830px;
+    left: 550px;
+    width: 70%;
+
+}
+
+.name{
+    width: 30%;
+    height: 66px;
+    background-color: #D9D9D9;
+    border: hidden;
+    font-size: medium;
+    padding-left: 10px;
+}
+.email{
+    width: 30%;
+    height: 66px;
+    background-color: #D9D9D9;
+    border: hidden;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.btnenroll{
+    position: absolute;
+    width: 200px;
+    height: 68px;
+    background-color: #F2C525;
+    border: hidden;
+    font-size: medium;
+    font-weight: 700;
+
+   
+}
+.btnenroll:active{
+    border: solid 2px #F2C525;
+
+}
+.btnenroll:hover{
+    cursor: pointer;
+    background-color: green;
+    color: #D9D9D9;
+}
+
+
+.arrowenroll{
+   position: absolute;
+top: 22px;
+left: 650px;
+
+
+}
